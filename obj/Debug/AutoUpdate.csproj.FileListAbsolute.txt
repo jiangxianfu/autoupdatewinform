@@ -1,0 +1,5 @@
+E:\SourceCode\autoupdate\bin\Debug\AutoUpdateApp.exe
+E:\SourceCode\autoupdate\bin\Debug\AutoUpdateApp.pdb
+E:\SourceCode\autoupdate\obj\Debug\ResolveAssemblyReference.cache
+E:\SourceCode\autoupdate\obj\Debug\AutoUpdateApp.exe
+E:\SourceCode\autoupdate\obj\Debug\AutoUpdateApp.pdb

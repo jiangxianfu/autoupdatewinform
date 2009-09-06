@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="SimSun" Size="9" />
+  <Class Name="AutoUpdater">
+    <Position X="5.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Updater.cs</FileName>
+      <HashCode>AAAgAJAAAAgAAAgIAAABAAgAQQgAAQAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlState">
+    <Position X="3.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Updater.cs</FileName>
+      <HashCode>AAAAAgAAAEgAQAAAAIQAEAoAgAAAAhAAAAABAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlStatus">
+    <Position X="1" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Updater.cs</FileName>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAABAEAAAAAAAAAAAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="XmlStatus.XmlPatch">
+        <TypeIdentifier>
+          <NewMemberFileName>Updater.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+  </Class>
+  <Class Name="Bits.BackgroundCopyManager">
+    <Position X="0.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Bits._BG_FILE_INFO" Collapsed="true">
+    <Position X="1.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Bits._BG_FILE_PROGRESS" Collapsed="true">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Bits._BG_JOB_PROGRESS">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAEAAAACABA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Bits._BG_JOB_TIMES" Collapsed="true">
+    <Position X="1.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Bits._FILETIME" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Bits.IBackgroundCopyManager" Collapsed="true">
+    <Position X="3.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AACAAAAAgAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Bits.IBackgroundCopyCallback">
+    <Position X="0.75" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Bits.IBackgroundCopyError">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAABAAAAABAAAAAAAAAAAgAEQAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Interface>
+  <Interface Name="Bits.IBackgroundCopyFile">
+    <Position X="6" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Bits.IBackgroundCopyJob" Collapsed="true">
+    <Position X="1.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>QAAAAEAAxMBQBAIBIAQCAEAgBAIAAOEAAABABCoAABA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Bits.IEnumBackgroundCopyFiles">
+    <Position X="6.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AgQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEBA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Bits.IEnumBackgroundCopyJobs" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AgQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEBA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="UpdateStatus">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Updater.cs</FileName>
+      <HashCode>AAAAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Bits.BG_ERROR_CONTEXT" Collapsed="true">
+    <Position X="1.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>EAAAAAAAAAAAAAAEAgAAAAACAAAAAEAAAAAAAgQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Bits.BG_JOB_PRIORITY" Collapsed="true">
+    <Position X="3.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAABEAAAAQAAAAAgAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Bits.BG_JOB_PROXY_USAGE" Collapsed="true">
+    <Position X="5.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAQAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Bits.BG_JOB_STATE" Collapsed="true">
+    <Position X="1.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAYAAAAAAAAAAEAAAAAAAQAAQAAAAAAABAEAAAAgCAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Bits.BG_JOB_TYPE" Collapsed="true">
+    <Position X="3.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>InteropBits.cs</FileName>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>
